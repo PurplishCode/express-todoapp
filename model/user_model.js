@@ -6,6 +6,10 @@ const { Schema } = mongoose;
 
 // Automatically creates a User Schema into our MongoDB database.
 const userSchema = new Schema({
+    full_name: {
+        type: String,
+        required: true
+    },
     email: {
         type: String,
         lowercase:true,
