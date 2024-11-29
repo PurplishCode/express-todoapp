@@ -1,5 +1,4 @@
 const userModel = require("../model/user_model");
-
 class UserService {
     static async registerUser(full_name,email,password){
 try  {
